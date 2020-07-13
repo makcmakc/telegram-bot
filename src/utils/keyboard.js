@@ -9,5 +9,16 @@ module.exports = {
 		[kb.film.random],
 		[kb.film.action, kb.film.comedy],
 		[kb.back]
+	],
+	cinemas: [
+		[
+			{
+				text: 'Отправить местоположение',
+				request_location: true
+			}
+		],
+		[
+			kb.back
+		]
 	]
 }
